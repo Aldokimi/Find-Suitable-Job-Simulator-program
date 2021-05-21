@@ -39,7 +39,7 @@ anyway, this method should return the result of multiplying given argument value
 The class `Employee` ALSO implements `Comparable<Employee>` interfaces , give an implementation to `compareTo()` method in such way that it make the comparision according to the `salary` value.
 Create `exam.findsuitablejob.EmpAgency`, a child class of `Contract`.
 
-It has a field called `employees`, a list of `Employee' objects.
+It has a field called `employees`, a list of `Employee` objects.
 Its only constructor takes `degree`, `contractPeriod` and an arbitrary number of `Employee`s and stores them in its fields.
 Create method `load()` which takes `filePath` of type `String` and return an Array of 'Employee' objects. It will read from an input file line by line, each line will be passed to `Employee.make()` to create a new employee. If a line is 'null' you should skip it. Make sure to catch 'IOException' since you are reading a file.
 Create method `hire()` that takes a 'Position' as argument and it go through 'employees' list (using Iterator). Then the list of hired employees is sorted in ascending order depending on 'salary' value.
